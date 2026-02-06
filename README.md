@@ -8,10 +8,11 @@ To quantify localization, wavefunction spread needs to be computed. However, per
 ## Usage
 Extract your wavefunction as a numpy array, and specify the physical dimensions (lengths) of the array. Then, call the relevant functions in "PBC_stats.py"
 
-'''python
+```python
 import numpy as np
 from PBC_stats_v3 import get_periodic_com, get_wf_spread
 
 com = get_periodic_com(my_wavefunction, my_wavefunction_lengths)
 spread = get_wf_spread(my_wavefunction, my_wavefunction_lengths)
+```
 
