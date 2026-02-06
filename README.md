@@ -15,4 +15,8 @@ from PBC_stats_v3 import get_periodic_com, get_wf_spread
 com = get_periodic_com(my_wavefunction, my_wavefunction_lengths)
 spread = get_wf_spread(my_wavefunction, my_wavefunction_lengths)
 ```
+## Requirements
+- Python >= 3.12.4
+- numpy >= 2.4.2
+- scipy >= 1.17.0
 
