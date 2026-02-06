@@ -13,7 +13,7 @@ my_dims = np.array([10,10,10])
 my_lengths = np.aray([1,1,1])
 my_wavefunction = np.arange(1000).reshape(my_dims) #An example array that represents a (unnormalized) wavefunction
 
-from PBC_stats_v3 import get_periodic_com, get_wf_spread
+from PBC_stats import get_periodic_com, get_wf_spread
 
 com = get_periodic_com(my_wavefunction, my_lengths)
 spread = get_wf_spread(my_wavefunction, my_lengths)
